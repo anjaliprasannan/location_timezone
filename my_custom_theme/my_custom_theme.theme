@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function my_custom_theme_theme($existing, $type, $theme, $path) {
+  return [
+    'my_custom_template' => [
+      'variables' => ['timezone' => NULL, 'current_time' => NULL],
+    ],
+  ];
+}
+?>
