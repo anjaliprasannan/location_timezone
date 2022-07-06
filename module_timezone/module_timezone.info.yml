@@ -1,0 +1,6 @@
+name: 'Location TimeZone Module'
+type: module
+description: 'A custom module to see the Site location and the current time for the location. '
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

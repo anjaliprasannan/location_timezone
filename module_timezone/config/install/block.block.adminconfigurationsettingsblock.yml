@@ -1,0 +1,20 @@
+uuid: b8dba3e5-bbcf-4c15-9785-828cb1a956f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - module_timezone
+  theme:
+    - my_custom_theme
+id: adminconfigurationsettingsblock
+theme: my_custom_theme
+region: branding
+weight: 0
+provider: null
+plugin: block_timezone
+settings:
+  id: block_timezone
+  label: 'Admin Configuration Settings Block'
+  label_display: '0'
+  provider: module_timezone
+visibility: {  }

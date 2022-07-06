@@ -1,0 +1,15 @@
+module_timezone.settings_form:
+  path: '/admin/config/module_timezone/admin_settings'
+  defaults:
+    _form: '\Drupal\module_timezone\Form\AdminSettingsForm'
+    _title: 'SettingsForm'
+  requirements:
+    _permission: 'manage all Admin Configurations'
+
+module_timezone.admin_dashboard:
+  path: '/config/admin'
+  defaults:
+    _controller: '\Drupal\module_timezone\Controller\TimezoneController::adminDashboard'
+    _title: 'Admin Space'
+  requirements:
+    _permission: 'manage all Admin Configurations'

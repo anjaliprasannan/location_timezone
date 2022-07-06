@@ -1,0 +1,6 @@
+module_timezone.admin:
+  title: 'Site Timezone settings'
+  description: 'Set the site timezone'
+  parent: system.admin_config_development
+  route_name: module_timezone.settings_form
+  weight: 1
