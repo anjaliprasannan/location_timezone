@@ -52,7 +52,6 @@ class TimezoneController extends ControllerBase {
     $render = [];
     $plugin_block = $this->blockManager->createInstance($block_id, $config);
 
-    // Some blocks might implement access check.
     $access_result = $plugin_block->access(\Drupal::currentUser());
 
     // Return empty render array if user doesn't have access.
